@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #summary {
+    margin-bottom: 20px;
+  }
+  
+  #addEventForm {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  #addEventForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #addEventForm input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #addEventForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #addEventForm button:hover {
+    background-color: #45a049;
+  }
+  

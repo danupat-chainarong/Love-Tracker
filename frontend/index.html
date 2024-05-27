@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Tracker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Love Tracker</h1>
+<div id="summary"></div>
+<div id="addEventForm">
+  <h2>Add New Event</h2>
+  <label for="eventType">Event Type:</label>
+  <select id="eventType">
+    <option value="fight">Fight</option>
+    <option value="meal">Meal</option>
+    <option value="place">Place</option>
+    <!-- Add more options for other event types -->
+  </select>
+  <label for="eventYear">Year:</label>
+  <input type="number" id="eventYear" placeholder="Enter Year">
+  <button onclick="addEvent()">Add Event</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
